@@ -19,7 +19,7 @@ There is nothing special to do in order to build this app.
 Just select your development team, and change the target to the appropriate destination. 
 
 ## Installation:
-Pre-exported .ipa files can be found in the releases tab and can be sideloaded with tools such as [TanaraSign](https://github.com/iRayanKhan/TanaraSign).
+Pre-exported .ipa files can be found in the [releases tab](https://github.com/iRayanKhan/BundleReader/releases/) and can be sideloaded with tools such as [TanaraSign](https://github.com/iRayanKhan/TanaraSign).
 
 ## Features:
 * View the apps:

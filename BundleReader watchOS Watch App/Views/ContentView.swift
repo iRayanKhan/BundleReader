@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  EmbeddedReader
+//  EmbeddedReader watchOS Watch App
 //
-//  Created by Rayan Khan on 1/15/24.
+//  Created by Rayan Khan on 3/19/24.
 //
 
 import SwiftUI
@@ -38,25 +38,14 @@ struct ContentView: View {
                             isActive: $showPlistReader
                         )
                     }
-                    
-                    
                     else {
                         Text(fileName)
                     }
-                    
                 }
-                VStack(alignment: .center) {
-                    Text("© 2024 Rayan Khan")
-                        .foregroundColor(.secondary)
-                    Text("https://WholeLotta.Red")
-                        .foregroundColor(.red)
-                }
-                
             }
             .onAppear(perform: loadFiles)
             .navigationTitle("Bundle Viewer")
-            
-        }.navigationViewStyle(.stack)
+        }
     }
     
     func loadFiles() {
@@ -115,6 +104,5 @@ struct FolderContentView: View {
 }
 
 #Preview {
-    FolderContentView(folderName: "Test")
+    ContentView()
 }
-

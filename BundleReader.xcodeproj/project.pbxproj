@@ -15,7 +15,40 @@
 		273AAC4B2BBF1E200088D072 /* PlistReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4A2BBF1E200088D072 /* PlistReaderView.swift */; };
 		273AAC4D2BBF1E7B0088D072 /* PkgInfoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4C2BBF1E7B0088D072 /* PkgInfoReaderView.swift */; };
 		273AAC4F2BBF1E960088D072 /* CodeResourcesReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4E2BBF1E960088D072 /* CodeResourcesReaderView.swift */; };
+		273AAC572BBF206D0088D072 /* BundleReader_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC562BBF206D0088D072 /* BundleReader_watchOSApp.swift */; };
+		273AAC592BBF206D0088D072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC582BBF206D0088D072 /* ContentView.swift */; };
+		273AAC5B2BBF206E0088D072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273AAC5A2BBF206E0088D072 /* Assets.xcassets */; };
+		273AAC5E2BBF206E0088D072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273AAC5D2BBF206E0088D072 /* Preview Assets.xcassets */; };
+		273AAC612BBF206E0088D072 /* BundleReader watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		273AAC682BBF20D00088D072 /* EmbeddedReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC672BBF20D00088D072 /* EmbeddedReaderView.swift */; };
+		273AAC6A2BBF20FB0088D072 /* PlistReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC692BBF20FB0088D072 /* PlistReaderView.swift */; };
+		273AAC6D2BBF211F0088D072 /* PkgInfoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */; };
+		273AAC6F2BBF213F0088D072 /* CodeResourcesReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273AAC5F2BBF206E0088D072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273AAC2E2BBF1DCB0088D072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273AAC532BBF206D0088D072;
+			remoteInfo = "BundleReader watchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		273AAC652BBF206E0088D072 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				273AAC612BBF206E0088D072 /* BundleReader watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		273AAC362BBF1DCB0088D072 /* BundleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,10 +60,26 @@
 		273AAC4A2BBF1E200088D072 /* PlistReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReaderView.swift; sourceTree = "<group>"; };
 		273AAC4C2BBF1E7B0088D072 /* PkgInfoReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PkgInfoReaderView.swift; sourceTree = "<group>"; };
 		273AAC4E2BBF1E960088D072 /* CodeResourcesReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeResourcesReaderView.swift; sourceTree = "<group>"; };
+		273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BundleReader watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273AAC562BBF206D0088D072 /* BundleReader_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleReader_watchOSApp.swift; sourceTree = "<group>"; };
+		273AAC582BBF206D0088D072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		273AAC5A2BBF206E0088D072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273AAC5D2BBF206E0088D072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		273AAC672BBF20D00088D072 /* EmbeddedReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedReaderView.swift; sourceTree = "<group>"; };
+		273AAC692BBF20FB0088D072 /* PlistReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReaderView.swift; sourceTree = "<group>"; };
+		273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PkgInfoReaderView.swift; sourceTree = "<group>"; };
+		273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeResourcesReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		273AAC332BBF1DCB0088D072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273AAC512BBF206D0088D072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				273AAC382BBF1DCB0088D072 /* BundleReader */,
+				273AAC552BBF206D0088D072 /* BundleReader watchOS Watch App */,
 				273AAC372BBF1DCB0088D072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				273AAC362BBF1DCB0088D072 /* BundleReader.app */,
+				273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +138,37 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		273AAC552BBF206D0088D072 /* BundleReader watchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				273AAC662BBF20750088D072 /* Views */,
+				273AAC5A2BBF206E0088D072 /* Assets.xcassets */,
+				273AAC5C2BBF206E0088D072 /* Preview Content */,
+			);
+			path = "BundleReader watchOS Watch App";
+			sourceTree = "<group>";
+		};
+		273AAC5C2BBF206E0088D072 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				273AAC5D2BBF206E0088D072 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		273AAC662BBF20750088D072 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				273AAC562BBF206D0088D072 /* BundleReader_watchOSApp.swift */,
+				273AAC582BBF206D0088D072 /* ContentView.swift */,
+				273AAC672BBF20D00088D072 /* EmbeddedReaderView.swift */,
+				273AAC692BBF20FB0088D072 /* PlistReaderView.swift */,
+				273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */,
+				273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,14 +179,33 @@
 				273AAC322BBF1DCB0088D072 /* Sources */,
 				273AAC332BBF1DCB0088D072 /* Frameworks */,
 				273AAC342BBF1DCB0088D072 /* Resources */,
+				273AAC652BBF206E0088D072 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273AAC602BBF206E0088D072 /* PBXTargetDependency */,
+			);
+			name = BundleReader;
+			productName = BundleReader;
+			productReference = 273AAC362BBF1DCB0088D072 /* BundleReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273AAC532BBF206D0088D072 /* BundleReader watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273AAC622BBF206E0088D072 /* Build configuration list for PBXNativeTarget "BundleReader watchOS Watch App" */;
+			buildPhases = (
+				273AAC502BBF206D0088D072 /* Sources */,
+				273AAC512BBF206D0088D072 /* Frameworks */,
+				273AAC522BBF206D0088D072 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BundleReader;
-			productName = BundleReader;
-			productReference = 273AAC362BBF1DCB0088D072 /* BundleReader.app */;
+			name = "BundleReader watchOS Watch App";
+			productName = "BundleReader watchOS Watch App";
+			productReference = 273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,6 +219,9 @@
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					273AAC352BBF1DCB0088D072 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					273AAC532BBF206D0088D072 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
@@ -136,6 +240,7 @@
 			projectRoot = "";
 			targets = (
 				273AAC352BBF1DCB0088D072 /* BundleReader */,
+				273AAC532BBF206D0088D072 /* BundleReader watchOS Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +252,15 @@
 			files = (
 				273AAC412BBF1DCD0088D072 /* Preview Assets.xcassets in Resources */,
 				273AAC3E2BBF1DCD0088D072 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273AAC522BBF206D0088D072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273AAC5E2BBF206E0088D072 /* Preview Assets.xcassets in Resources */,
+				273AAC5B2BBF206E0088D072 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +280,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		273AAC502BBF206D0088D072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273AAC6F2BBF213F0088D072 /* CodeResourcesReaderView.swift in Sources */,
+				273AAC6D2BBF211F0088D072 /* PkgInfoReaderView.swift in Sources */,
+				273AAC592BBF206D0088D072 /* ContentView.swift in Sources */,
+				273AAC682BBF20D00088D072 /* EmbeddedReaderView.swift in Sources */,
+				273AAC6A2BBF20FB0088D072 /* PlistReaderView.swift in Sources */,
+				273AAC572BBF206D0088D072 /* BundleReader_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273AAC602BBF206E0088D072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273AAC532BBF206D0088D072 /* BundleReader watchOS Watch App */;
+			targetProxy = 273AAC5F2BBF206E0088D072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		273AAC422BBF1DCD0088D072 /* Debug */ = {
@@ -291,6 +426,7 @@
 		273AAC452BBF1DCD0088D072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +457,7 @@
 		273AAC462BBF1DCD0088D072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +485,66 @@
 			};
 			name = Release;
 		};
+		273AAC632BBF206E0088D072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BundleReader watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9489Q3YVAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BundleReader watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.iRayanKhan.BundleReader;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRayanKhan.BundleReader.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		273AAC642BBF206E0088D072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BundleReader watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9489Q3YVAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BundleReader watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.iRayanKhan.BundleReader;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRayanKhan.BundleReader.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +562,15 @@
 			buildConfigurations = (
 				273AAC452BBF1DCD0088D072 /* Debug */,
 				273AAC462BBF1DCD0088D072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273AAC622BBF206E0088D072 /* Build configuration list for PBXNativeTarget "BundleReader watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273AAC632BBF206E0088D072 /* Debug */,
+				273AAC642BBF206E0088D072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

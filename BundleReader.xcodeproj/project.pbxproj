@@ -11,6 +11,10 @@
 		273AAC3C2BBF1DCB0088D072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC3B2BBF1DCB0088D072 /* ContentView.swift */; };
 		273AAC3E2BBF1DCD0088D072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273AAC3D2BBF1DCD0088D072 /* Assets.xcassets */; };
 		273AAC412BBF1DCD0088D072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273AAC402BBF1DCD0088D072 /* Preview Assets.xcassets */; };
+		273AAC492BBF1E0F0088D072 /* EmbeddedReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC482BBF1E0F0088D072 /* EmbeddedReaderView.swift */; };
+		273AAC4B2BBF1E200088D072 /* PlistReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4A2BBF1E200088D072 /* PlistReaderView.swift */; };
+		273AAC4D2BBF1E7B0088D072 /* PkgInfoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4C2BBF1E7B0088D072 /* PkgInfoReaderView.swift */; };
+		273AAC4F2BBF1E960088D072 /* CodeResourcesReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC4E2BBF1E960088D072 /* CodeResourcesReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		273AAC3B2BBF1DCB0088D072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		273AAC3D2BBF1DCD0088D072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273AAC402BBF1DCD0088D072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		273AAC482BBF1E0F0088D072 /* EmbeddedReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedReaderView.swift; sourceTree = "<group>"; };
+		273AAC4A2BBF1E200088D072 /* PlistReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReaderView.swift; sourceTree = "<group>"; };
+		273AAC4C2BBF1E7B0088D072 /* PkgInfoReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PkgInfoReaderView.swift; sourceTree = "<group>"; };
+		273AAC4E2BBF1E960088D072 /* CodeResourcesReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeResourcesReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,7 @@
 		273AAC382BBF1DCB0088D072 /* BundleReader */ = {
 			isa = PBXGroup;
 			children = (
-				273AAC392BBF1DCB0088D072 /* BundleReaderApp.swift */,
-				273AAC3B2BBF1DCB0088D072 /* ContentView.swift */,
+				273AAC472BBF1DEF0088D072 /* Views */,
 				273AAC3D2BBF1DCD0088D072 /* Assets.xcassets */,
 				273AAC3F2BBF1DCD0088D072 /* Preview Content */,
 			);
@@ -65,6 +72,19 @@
 				273AAC402BBF1DCD0088D072 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		273AAC472BBF1DEF0088D072 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				273AAC392BBF1DCB0088D072 /* BundleReaderApp.swift */,
+				273AAC3B2BBF1DCB0088D072 /* ContentView.swift */,
+				273AAC482BBF1E0F0088D072 /* EmbeddedReaderView.swift */,
+				273AAC4A2BBF1E200088D072 /* PlistReaderView.swift */,
+				273AAC4C2BBF1E7B0088D072 /* PkgInfoReaderView.swift */,
+				273AAC4E2BBF1E960088D072 /* CodeResourcesReaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273AAC4F2BBF1E960088D072 /* CodeResourcesReaderView.swift in Sources */,
+				273AAC4D2BBF1E7B0088D072 /* PkgInfoReaderView.swift in Sources */,
 				273AAC3C2BBF1DCB0088D072 /* ContentView.swift in Sources */,
+				273AAC492BBF1E0F0088D072 /* EmbeddedReaderView.swift in Sources */,
+				273AAC4B2BBF1E200088D072 /* PlistReaderView.swift in Sources */,
 				273AAC3A2BBF1DCB0088D072 /* BundleReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +304,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

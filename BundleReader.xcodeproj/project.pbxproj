@@ -24,6 +24,15 @@
 		273AAC6A2BBF20FB0088D072 /* PlistReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC692BBF20FB0088D072 /* PlistReaderView.swift */; };
 		273AAC6D2BBF211F0088D072 /* PkgInfoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */; };
 		273AAC6F2BBF213F0088D072 /* CodeResourcesReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */; };
+		27A09F202BBF28C100BBFDCC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 27A09F1F2BBF28C100BBFDCC /* RealityKitContent */; };
+		27A09F222BBF28C100BBFDCC /* BundleReader_visionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F212BBF28C100BBFDCC /* BundleReader_visionOSApp.swift */; };
+		27A09F242BBF28C100BBFDCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F232BBF28C100BBFDCC /* ContentView.swift */; };
+		27A09F262BBF28C200BBFDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A09F252BBF28C200BBFDCC /* Assets.xcassets */; };
+		27A09F292BBF28C200BBFDCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A09F282BBF28C200BBFDCC /* Preview Assets.xcassets */; };
+		27A09F322BBF28FC00BBFDCC /* PlistReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F2F2BBF28FC00BBFDCC /* PlistReaderView.swift */; };
+		27A09F332BBF28FC00BBFDCC /* EmbeddedReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F302BBF28FC00BBFDCC /* EmbeddedReaderView.swift */; };
+		27A09F342BBF28FC00BBFDCC /* PkgInfoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F312BBF28FC00BBFDCC /* PkgInfoReaderView.swift */; };
+		27A09F362BBF290200BBFDCC /* CodeResourcesReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A09F352BBF290200BBFDCC /* CodeResourcesReaderView.swift */; };
 		27DF2F3D2BBF24B10085DD3A /* BundleReader_tvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DF2F3C2BBF24B10085DD3A /* BundleReader_tvOSApp.swift */; };
 		27DF2F3F2BBF24B10085DD3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DF2F3E2BBF24B10085DD3A /* ContentView.swift */; };
 		27DF2F412BBF24B20085DD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DF2F402BBF24B20085DD3A /* Assets.xcassets */; };
@@ -77,6 +86,17 @@
 		273AAC692BBF20FB0088D072 /* PlistReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReaderView.swift; sourceTree = "<group>"; };
 		273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PkgInfoReaderView.swift; sourceTree = "<group>"; };
 		273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeResourcesReaderView.swift; sourceTree = "<group>"; };
+		27A09F1B2BBF28C100BBFDCC /* BundleReader visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BundleReader visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A09F1E2BBF28C100BBFDCC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		27A09F212BBF28C100BBFDCC /* BundleReader_visionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleReader_visionOSApp.swift; sourceTree = "<group>"; };
+		27A09F232BBF28C100BBFDCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27A09F252BBF28C200BBFDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27A09F282BBF28C200BBFDCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27A09F2A2BBF28C200BBFDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A09F2F2BBF28FC00BBFDCC /* PlistReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlistReaderView.swift; path = BundleReader/Views/PlistReaderView.swift; sourceTree = SOURCE_ROOT; };
+		27A09F302BBF28FC00BBFDCC /* EmbeddedReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmbeddedReaderView.swift; path = BundleReader/Views/EmbeddedReaderView.swift; sourceTree = SOURCE_ROOT; };
+		27A09F312BBF28FC00BBFDCC /* PkgInfoReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PkgInfoReaderView.swift; path = BundleReader/Views/PkgInfoReaderView.swift; sourceTree = SOURCE_ROOT; };
+		27A09F352BBF290200BBFDCC /* CodeResourcesReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeResourcesReaderView.swift; path = BundleReader/Views/CodeResourcesReaderView.swift; sourceTree = SOURCE_ROOT; };
 		27DF2F3A2BBF24B10085DD3A /* BundleReader tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BundleReader tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DF2F3C2BBF24B10085DD3A /* BundleReader_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleReader_tvOSApp.swift; sourceTree = "<group>"; };
 		27DF2F3E2BBF24B10085DD3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +123,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27A09F182BBF28C100BBFDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A09F202BBF28C100BBFDCC /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27DF2F372BBF24B10085DD3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +147,8 @@
 				273AAC382BBF1DCB0088D072 /* BundleReader */,
 				273AAC552BBF206D0088D072 /* BundleReader watchOS Watch App */,
 				27DF2F3B2BBF24B10085DD3A /* BundleReader tvOS */,
+				27A09F1C2BBF28C100BBFDCC /* BundleReader visionOS */,
+				27A09F1D2BBF28C100BBFDCC /* Packages */,
 				273AAC372BBF1DCB0088D072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +159,7 @@
 				273AAC362BBF1DCB0088D072 /* BundleReader.app */,
 				273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */,
 				27DF2F3A2BBF24B10085DD3A /* BundleReader tvOS.app */,
+				27A09F1B2BBF28C100BBFDCC /* BundleReader visionOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +222,46 @@
 				273AAC692BBF20FB0088D072 /* PlistReaderView.swift */,
 				273AAC6C2BBF211F0088D072 /* PkgInfoReaderView.swift */,
 				273AAC6E2BBF213F0088D072 /* CodeResourcesReaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27A09F1C2BBF28C100BBFDCC /* BundleReader visionOS */ = {
+			isa = PBXGroup;
+			children = (
+				27A09F2E2BBF28E800BBFDCC /* Views */,
+				27A09F252BBF28C200BBFDCC /* Assets.xcassets */,
+				27A09F2A2BBF28C200BBFDCC /* Info.plist */,
+				27A09F272BBF28C200BBFDCC /* Preview Content */,
+			);
+			path = "BundleReader visionOS";
+			sourceTree = "<group>";
+		};
+		27A09F1D2BBF28C100BBFDCC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				27A09F1E2BBF28C100BBFDCC /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		27A09F272BBF28C200BBFDCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27A09F282BBF28C200BBFDCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27A09F2E2BBF28E800BBFDCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27A09F212BBF28C100BBFDCC /* BundleReader_visionOSApp.swift */,
+				27A09F232BBF28C100BBFDCC /* ContentView.swift */,
+				27A09F302BBF28FC00BBFDCC /* EmbeddedReaderView.swift */,
+				27A09F312BBF28FC00BBFDCC /* PkgInfoReaderView.swift */,
+				27A09F2F2BBF28FC00BBFDCC /* PlistReaderView.swift */,
+				27A09F352BBF290200BBFDCC /* CodeResourcesReaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +336,26 @@
 			productReference = 273AAC542BBF206D0088D072 /* BundleReader watchOS Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		27A09F1A2BBF28C100BBFDCC /* BundleReader visionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A09F2D2BBF28C200BBFDCC /* Build configuration list for PBXNativeTarget "BundleReader visionOS" */;
+			buildPhases = (
+				27A09F172BBF28C100BBFDCC /* Sources */,
+				27A09F182BBF28C100BBFDCC /* Frameworks */,
+				27A09F192BBF28C100BBFDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BundleReader visionOS";
+			packageProductDependencies = (
+				27A09F1F2BBF28C100BBFDCC /* RealityKitContent */,
+			);
+			productName = "BundleReader visionOS";
+			productReference = 27A09F1B2BBF28C100BBFDCC /* BundleReader visionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		27DF2F392BBF24B10085DD3A /* BundleReader tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27DF2F472BBF24B20085DD3A /* Build configuration list for PBXNativeTarget "BundleReader tvOS" */;
@@ -289,13 +380,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					273AAC352BBF1DCB0088D072 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 					273AAC532BBF206D0088D072 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					27A09F1A2BBF28C100BBFDCC = {
 						CreatedOnToolsVersion = 15.1;
 					};
 					27DF2F392BBF24B10085DD3A = {
@@ -319,6 +413,7 @@
 				273AAC352BBF1DCB0088D072 /* BundleReader */,
 				273AAC532BBF206D0088D072 /* BundleReader watchOS Watch App */,
 				27DF2F392BBF24B10085DD3A /* BundleReader tvOS */,
+				27A09F1A2BBF28C100BBFDCC /* BundleReader visionOS */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +434,15 @@
 			files = (
 				273AAC5E2BBF206E0088D072 /* Preview Assets.xcassets in Resources */,
 				273AAC5B2BBF206E0088D072 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A09F192BBF28C100BBFDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A09F292BBF28C200BBFDCC /* Preview Assets.xcassets in Resources */,
+				27A09F262BBF28C200BBFDCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +481,19 @@
 				273AAC682BBF20D00088D072 /* EmbeddedReaderView.swift in Sources */,
 				273AAC6A2BBF20FB0088D072 /* PlistReaderView.swift in Sources */,
 				273AAC572BBF206D0088D072 /* BundleReader_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A09F172BBF28C100BBFDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A09F362BBF290200BBFDCC /* CodeResourcesReaderView.swift in Sources */,
+				27A09F342BBF28FC00BBFDCC /* PkgInfoReaderView.swift in Sources */,
+				27A09F242BBF28C100BBFDCC /* ContentView.swift in Sources */,
+				27A09F322BBF28FC00BBFDCC /* PlistReaderView.swift in Sources */,
+				27A09F222BBF28C100BBFDCC /* BundleReader_visionOSApp.swift in Sources */,
+				27A09F332BBF28FC00BBFDCC /* EmbeddedReaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +762,62 @@
 			};
 			name = Release;
 		};
+		27A09F2B2BBF28C200BBFDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BundleReader visionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9489Q3YVAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iRayanKhan.BundleReader-visionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		27A09F2C2BBF28C200BBFDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BundleReader visionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9489Q3YVAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iRayanKhan.BundleReader-visionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
 		27DF2F452BBF24B20085DD3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -731,6 +904,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		27A09F2D2BBF28C200BBFDCC /* Build configuration list for PBXNativeTarget "BundleReader visionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A09F2B2BBF28C200BBFDCC /* Debug */,
+				27A09F2C2BBF28C200BBFDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27DF2F472BBF24B20085DD3A /* Build configuration list for PBXNativeTarget "BundleReader tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -741,6 +923,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27A09F1F2BBF28C100BBFDCC /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 273AAC2E2BBF1DCB0088D072 /* Project object */;
 }
